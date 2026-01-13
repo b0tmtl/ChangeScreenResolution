@@ -12,5 +12,7 @@ Install-Module ChangeScreenResolution
 ### Examples
 ```
     Set-ScreenResolution 1920 1080
+    # To run in a remote session (Enter-PSSession)
+    Set-ScreenResolution 1600 900 -AsTask
     
 ```
